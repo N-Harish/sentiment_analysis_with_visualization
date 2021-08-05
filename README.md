@@ -2,7 +2,7 @@
 
 
 ## How the app works
-* The app would take input in any language and output the sentiment of the sentence. Sentiment analysis is done in unsupervised wordlist based manner.
+* The app would take input in english language and output the sentiment of the sentence. Sentiment analysis is done in unsupervised wordlist based manner.
 * there is also a summarization route which would summarize the bunch of text in a concise way. The summarizer is created using gensim library.
 * for security, encryption of password using saltings and hashing techniques takes place before storing to firebase (database).
 * The application is developed using Flask framework
