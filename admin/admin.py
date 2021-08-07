@@ -3,14 +3,14 @@ import re
 from validate_email import validate_email
 from werkzeug.security import check_password_hash
 config = {
-    "apiKey": "AIzaSyBX9wuQLsiRvzY0cOWgsbyEyN3SYQ2G9L8",
-    "authDomain": "admin-c96e0.firebaseapp.com",
-    "databaseURL": "https://admin-c96e0.firebaseio.com",
-    "projectId": "admin-c96e0",
-    "storageBucket": "admin-c96e0.appspot.com",
-    "messagingSenderId": "688616953815",
-    "appId": "1:688616953815:web:61a13072f93189fbf75d92",
-    "measurementId": "G-QD865HKN6G"
+    "apiKey": <your API key>,
+    "authDomain": <your auth domain>,
+    "databaseURL": <your db url>,
+    "projectId": <your project id>,
+    "storageBucket": <your storage bucket>,
+    "messagingSenderId": <your sender id>,
+    "appId": <your app id>,
+    "measurementId": <your measurement id>
 }
 
 
