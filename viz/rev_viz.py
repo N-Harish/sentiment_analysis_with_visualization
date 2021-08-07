@@ -49,7 +49,7 @@ def create_db(data, app_id):
     app_key = ' '.join(key[1:])
 
     client = MongoClient(
-        "mongodb+srv://Harish:harishdereck@cluster0.5mz9d.mongodb.net/<dbname>?retryWrites=true&w=majority")
+        # your mongo db Atlas url)
 
     db = client.get_database('PlayStoreReview')
 
