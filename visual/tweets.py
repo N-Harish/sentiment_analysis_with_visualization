@@ -3,10 +3,10 @@ import tweepy
 
 # assign the values accordingly
 def tweetss(wo):
-    consumer_key = "Yt141NXbf9rYI9LaeswlCJQRt"#api key
-    consumer_secret = "dhOYfIrepbtfLDMmsK7kZXhzPxoMuyXQGVJV2BqxuqQJapwj2q"#api
-    access_token = "1258795430751715329-jSAFU04dev3MknVWpa1ZgxYdSkcsmI"
-    access_token_secret = "ltyfTJTFWDv7ZeNronVLHpbcvQEx2yHOWTaKHcXsodAaM"
+    consumer_key = #api key
+    consumer_secret = #api secret
+    access_token = #access token
+    access_token_secret = #access token secret
 
     # calling API
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
